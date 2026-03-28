@@ -1,0 +1,7 @@
+Fund_ID,Fund_Name,ISIN,Umbrella,Domicile,Fund_Type,Launch_Date,Base_Currency,Management_Company,Administrator,Custodian,Auditor,Legal_Counsel,Status,AUM_EUR
+FND-001,Global Equity Fund,IE00B4X9L533,UCITS Platform ICAV,Ireland,UCITS,2019-03-15,EUR,Capital Management Co.,Fund Admin A,Fund Admin A,Audit Firm,Law Firm A,Active,487250000
+FND-002,European Bond Fund,IE00BK5BQ103,UCITS Platform ICAV,Ireland,UCITS,2020-06-01,EUR,Capital Management Co.,Fund Admin B,Fund Admin B,Audit Firm B,Law Firm A,Active,312800000
+FND-003,Multi-Asset Growth Fund,LU0292097234,Luxembourg SICAV,Luxembourg,UCITS,2018-11-20,EUR,ManCo Provider,Fund Admin C,Custodian A,Audit Firm C,Law Firm B,Active,623400000
+FND-004,Emerging Markets Fund,IE00BFYN9Y00,UCITS Platform ICAV,Ireland,UCITS,2021-09-10,USD,Capital Management Co.,Fund Admin A,Fund Admin A,Audit Firm,Law Firm A,Active,198500000
+FND-005,Real Estate Opportunities Fund,LU0488316133,Alternative ICAV (AIFMD),Luxembourg,AIF,2022-01-17,EUR,ManCo Provider,Fund Admin D,Custodian A,Audit Firm B,Law Firm B,Active,145600000
+FND-006,Private Credit Fund,LU0629460675,Alternative ICAV (AIFMD),Luxembourg,AIF,2023-04-03,EUR,ManCo Provider,Fund Admin D,Custodian B,Audit Firm C,Law Firm C,Active,89200000

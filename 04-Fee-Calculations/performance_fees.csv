@@ -1,0 +1,9 @@
+Fund_Name,ISIN,Share_Class,Performance_Fee_Rate_Pct,Benchmark,HWM_Per_Share,Current_NAV_Per_Share,Outperformance_Pct,Crystallisation_Date,Accrued_Fee_EUR,Crystallised_Fee_EUR,Status
+Global Equity Fund,IE00B4X9L533,Institutional,10.00,MSCI World Net Total Return EUR,142.58,148.92,2.35,2026-12-31,1128450.00,0.00,Accruing
+Global Equity Fund,IE00B4X9L533,Retail,10.00,MSCI World Net Total Return EUR,118.34,123.07,1.88,2026-12-31,405200.00,0.00,Accruing
+Emerging Markets Fund,IE00BFYN9Y00,Institutional,15.00,MSCI Emerging Markets Net Total Return EUR,104.22,101.85,-2.27,2026-12-31,0.00,0.00,Below HWM
+Emerging Markets Fund,IE00BFYN9Y00,Retail,15.00,MSCI Emerging Markets Net Total Return EUR,98.76,96.41,-2.38,2026-12-31,0.00,0.00,Below HWM
+Multi-Asset Growth Fund,LU0292097234,Institutional,10.00,EURIBOR 3M + 300bps,131.40,134.18,0.92,2026-12-31,312760.00,0.00,Accruing
+Multi-Asset Growth Fund,LU0292097234,Retail,10.00,EURIBOR 3M + 300bps,108.15,110.47,0.74,2026-12-31,118400.00,0.00,Accruing
+Real Estate Opportunities Fund,LU0488316133,Institutional,20.00,8% Preferred Return (Hurdle),1000.00,1124.50,4.45,2026-12-31,3648000.00,0.00,Accruing - Above Hurdle
+Private Credit Fund,LU0629460675,Institutional,15.00,6% Preferred Return (Hurdle),1000.00,1078.30,1.83,2026-12-31,878400.00,0.00,Accruing - Above Hurdle
