@@ -1,0 +1,44 @@
+Field_Name,Table_Name,Data_Type,Description,Source_System,Business_Rules,Example_Value,Mandatory,PII_Flag
+Fund_ID,Fund_Master,INT,Unique internal identifier for each fund,Fund Accounting System,Auto-generated sequential integer; immutable once assigned,1001,Yes,No
+Fund_Name,Fund_Master,VARCHAR(100),Official registered name of the fund,Fund Accounting System,Must match name on regulatory filings,Global Equity Fund,Yes,No
+ISIN,Fund_Master,CHAR(12),International Securities Identification Number,Fund Accounting System,Must be valid 12-character ISIN format; unique per fund,IE00B4X9L533,Yes,No
+Fund_Type,Fund_Master,VARCHAR(10),Regulatory classification of the fund,Fund Accounting System,Must be one of: UCITS or AIFMD,UCITS,Yes,No
+Domicile,Fund_Master,VARCHAR(50),Country of fund domicile and registration,Fund Accounting System,ISO 3166 country name,Ireland,Yes,No
+Base_Currency,Fund_Master,CHAR(3),Base currency of the fund,Fund Accounting System,ISO 4217 three-letter currency code,EUR,Yes,No
+Launch_Date,Fund_Master,DATE,Date the fund was launched and available for investment,Fund Accounting System,Must be a valid past date in YYYY-MM-DD format,2018-03-15,Yes,No
+Fund_Status,Fund_Master,VARCHAR(20),Current operational status of the fund,Fund Accounting System,Must be one of: Active; Soft Closed; Hard Closed; Terminated,Active,Yes,No
+Administrator_Name,Fund_Master,VARCHAR(100),Name of the appointed fund administrator,Fund Accounting System,Must match authorised administrator list,Fund Admin A,Yes,No
+Management_Company,Fund_Master,VARCHAR(100),Name of the UCITS ManCo or AIFM,Fund Accounting System,Must match CBI or CSSF register,Capital Management Co.,Yes,No
+NAV_ID,NAV_Data,INT,Unique identifier for each NAV record,System Generated,Auto-generated; unique per NAV calculation event,500001,Yes,No
+NAV_Date,NAV_Data,DATE,Valuation date for the NAV calculation,Fund Administrator,Must be a valid business day in YYYY-MM-DD format,2025-09-30,Yes,No
+NAV_Per_Share,NAV_Data,DECIMAL(18;6),Net Asset Value per share or unit,Fund Administrator,Must be positive; rounded to 6 decimal places,125.438921,Yes,No
+Total_NAV,NAV_Data,DECIMAL(18;2),Total Net Asset Value of the fund in base currency,Fund Administrator,Must be positive; must equal NAV_Per_Share multiplied by Shares_Outstanding within rounding tolerance,485000000.00,Yes,No
+Shares_Outstanding,NAV_Data,DECIMAL(18;4),Total number of shares or units in issue,Fund Administrator,Must be positive; reconciled against share register,3866247.1832,Yes,No
+NAV_Source,NAV_Data,VARCHAR(20),Indicates whether NAV is from administrator or internal calculation,System,Must be one of: Administrator or Internal,Administrator,Yes,No
+NAV_Status,NAV_Data,VARCHAR(20),Current status of the NAV record,System,Must be one of: Preliminary; Official; Restated,Official,Yes,No
+Share_Class_ID,Share_Class,INT,Unique identifier for each share class,Fund Accounting System,Auto-generated sequential integer,2001,Yes,No
+Share_Class_Name,Share_Class,VARCHAR(50),Name of the share class,Fund Accounting System,Must follow naming convention: Fund abbreviation plus class letter,GEF Class A EUR,Yes,No
+Share_Class_Currency,Share_Class,CHAR(3),Currency denomination of the share class,Fund Accounting System,ISO 4217 three-letter currency code,EUR,Yes,No
+Share_Class_ISIN,Share_Class,CHAR(12),ISIN specific to the share class,Fund Accounting System,Must be valid 12-character ISIN; unique per share class,IE00B4X9L533,Yes,No
+Management_Fee_Bps,Share_Class,DECIMAL(6;2),Annual management fee in basis points,Fee Schedule,Must be non-negative; maximum 300 bps,75.00,Yes,No
+Performance_Fee_Pct,Share_Class,DECIMAL(5;2),Performance fee percentage if applicable,Fee Schedule,Must be non-negative; zero if no performance fee applies,10.00,No,No
+Investor_ID,Investor_Data,INT,Unique internal identifier for each investor account,Transfer Agent,Auto-generated; unique per investor account,80001,Yes,No
+Investor_Name,Investor_Data,VARCHAR(200),Full legal name of the investor,Transfer Agent,Must match AML/KYC verified name,Meridian Pension Trustees Ltd,Yes,Yes
+Investor_Type,Investor_Data,VARCHAR(50),Classification of the investor,Transfer Agent,Must be one of: Institutional; Professional; Retail; Eligible Counterparty,Institutional,Yes,No
+Investor_Country,Investor_Data,VARCHAR(50),Country of residence or registration of the investor,Transfer Agent,ISO 3166 country name; required for CRS/FATCA reporting,Ireland,Yes,Yes
+Tax_Residency,Investor_Data,VARCHAR(50),Tax residency jurisdiction of the investor,Transfer Agent,ISO 3166 country name; required for CRS/FATCA reporting,Ireland,Yes,Yes
+TIN,Investor_Data,VARCHAR(50),Tax Identification Number of the investor,Transfer Agent,Format varies by jurisdiction; encrypted at rest,IE1234567T,Yes,Yes
+Holding_Units,Investor_Data,DECIMAL(18;4),Number of units or shares held by the investor,Transfer Agent,Must be non-negative; zero for fully redeemed accounts,15000.0000,Yes,No
+Holding_Value_EUR,Investor_Data,DECIMAL(18;2),Market value of investor holding in EUR,System Calculated,Calculated as Holding_Units multiplied by NAV_Per_Share; converted to EUR if different currency,1881583.82,Yes,No
+Fee_Calc_ID,Fee_Data,INT,Unique identifier for each fee calculation,System Generated,Auto-generated sequential integer,60001,Yes,No
+Fee_Type,Fee_Data,VARCHAR(50),Type of fee being calculated,Fee Schedule,Must be one of: Management Fee; Performance Fee; Administration Fee; Custody Fee; Depositary Fee,Management Fee,Yes,No
+Fee_Period_Start,Fee_Data,DATE,Start date of the fee calculation period,System,Must be a valid date; period start must precede period end,2025-07-01,Yes,No
+Fee_Period_End,Fee_Data,DATE,End date of the fee calculation period,System,Must be a valid date; must be after Fee_Period_Start,2025-09-30,Yes,No
+Fee_Amount_EUR,Fee_Data,DECIMAL(18;2),Calculated fee amount in EUR for the period,System Calculated,Calculated per fee schedule rules; must be non-negative,912500.00,Yes,No
+Fee_Status,Fee_Data,VARCHAR(20),Approval status of the fee calculation,System,Must be one of: Draft; Pending Approval; Approved; Paid; Disputed,Approved,Yes,No
+Compliance_Check_ID,Compliance_Data,INT,Unique identifier for each compliance check result,Compliance Engine,Auto-generated sequential integer,70001,Yes,No
+Rule_Code,Compliance_Data,VARCHAR(30),Code identifying the compliance rule being checked,Compliance Engine,Must match a rule in the compliance rule library,UCITS-5-10-40,Yes,No
+Check_Date,Compliance_Data,DATE,Date the compliance check was performed,Compliance Engine,Must be a valid business day,2025-09-30,Yes,No
+Compliance_Result,Compliance_Data,VARCHAR(10),Outcome of the compliance check,Compliance Engine,Must be one of: Pass; Fail; Warning; N/A,Pass,Yes,No
+Breach_Amount,Compliance_Data,DECIMAL(18;2),Amount by which the limit was breached if applicable,Compliance Engine,Zero if result is Pass; positive value if Fail or Warning,0.00,No,No
+Remediation_Deadline,Compliance_Data,DATE,Date by which the breach must be remediated,Compliance Engine,Populated only for Fail results; calculated per regulatory rules,2025-10-07,No,No

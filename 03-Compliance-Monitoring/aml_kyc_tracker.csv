@@ -1,0 +1,21 @@
+Investor_ID,Investor_Name,Investor_Type,Country,KYC_Status,KYC_Completion_Date,KYC_Expiry_Date,AML_Risk_Rating,PEP_Check,Sanctions_Check,Source_of_Wealth_Verified,Enhanced_Due_Diligence,Last_Review_Date,Reviewer,Notes
+INV-001,Meridian Pension Trustees Ltd,Pension Fund,Ireland,Complete,2024-06-15,2027-06-15,Low,Clear,Clear,Yes,No,2025-12-10,KYC Analyst A,Irish DB pension scheme; low risk profile
+INV-002,Nordstrom Capital Partners,Institutional,Sweden,Complete,2025-01-20,2028-01-20,Low,Clear,Clear,Yes,No,2025-12-10,KYC Analyst A,Swedish institutional investor; regulated entity
+INV-003,Friedrich Weiss,HNW Individual,Germany,Complete,2024-09-05,2025-09-05,Medium,Clear,Clear,Yes,No,2025-09-01,KYC Analyst A,KYC renewal due September 2025; reminder sent
+INV-004,Al-Rashid Family Office,Family Office,UAE,Complete,2025-03-12,2026-03-12,High,Clear,Clear,Yes,Yes,2026-03-01,KYC Analyst B,EDD applied due to jurisdiction; all checks satisfactory
+INV-005,Helvetia Re Insurance AG,Institutional,Switzerland,Complete,2024-11-30,2027-11-30,Low,Clear,Clear,Yes,No,2025-11-15,KYC Analyst A,Major reinsurer; regulated by FINMA
+INV-006,Carmichael Wealth Management,Family Office,United Kingdom,Complete,2025-05-18,2028-05-18,Low,Clear,Clear,Yes,No,2025-12-10,KYC Analyst A,FCA-regulated wealth manager
+INV-007,Maria Santos de Oliveira,HNW Individual,Brazil,Complete,2025-02-28,2026-02-28,High,Clear,Clear,Yes,Yes,2026-02-15,KYC Analyst B,EDD applied; source of wealth verified through corporate filings
+INV-008,Ontario Teachers Pension Plan,Pension Fund,Canada,Complete,2024-08-22,2027-08-22,Low,Clear,Clear,Yes,No,2025-12-10,KYC Analyst A,Large Canadian pension plan; well-known institution
+INV-009,Takahashi Holdings KK,Institutional,Japan,Complete,2025-07-10,2028-07-10,Low,Clear,Clear,Yes,No,2025-12-10,KYC Analyst A,Japanese regulated entity; FSA licensed
+INV-010,Henrik Johansson,HNW Individual,Denmark,Pending Renewal,2023-10-15,2026-04-15,Medium,Clear,Clear,Yes,No,2026-03-15,KYC Analyst B,KYC renewal in progress; documentation requested 2026-03-01
+INV-011,Banque Privee Luxembourg SA,Institutional,Luxembourg,Complete,2025-04-01,2028-04-01,Low,Clear,Clear,Yes,No,2025-12-10,KYC Analyst A,CSSF-regulated credit institution
+INV-012,Gulf Sovereign Wealth Fund,Pension Fund,Kuwait,Complete,2025-06-20,2026-06-20,High,Flagged,Clear,Yes,Yes,2026-03-20,KYC Analyst B,PEP association identified - board member is former government official; EDD completed and approved
+INV-013,Chen Wei Lin,HNW Individual,Singapore,Complete,2025-08-14,2028-08-14,Medium,Clear,Clear,Yes,No,2025-12-10,KYC Analyst A,Source of wealth from technology sector; MAS jurisdiction
+INV-014,European Pension Foundation,Pension Fund,Netherlands,Complete,2024-12-01,2027-12-01,Low,Clear,Clear,Yes,No,2025-12-10,KYC Analyst A,One of the largest pension funds in Europe
+INV-015,Rossi Family Trust,Family Office,Italy,Complete,2025-09-30,2028-09-30,Medium,Clear,Clear,Yes,No,2025-12-10,KYC Analyst A,Italian family trust; Consob-related checks completed
+INV-016,Viktor Petrov,HNW Individual,Russia,Rejected,2025-01-10,,High,Flagged,Flagged,No,Yes,2025-01-10,KYC Analyst B,Sanctions screening flagged; investor onboarding declined
+INV-017,Cape Town Endowment Fund,Institutional,South Africa,Complete,2025-11-05,2028-11-05,Medium,Clear,Clear,Yes,No,2025-12-10,KYC Analyst A,University endowment; FSCA regulated
+INV-018,Muller & Sohn GmbH,Institutional,Austria,Complete,2025-03-22,2028-03-22,Low,Clear,Clear,Yes,No,2025-12-10,KYC Analyst A,Austrian corporate investor; FMA regulated
+INV-019,Isabelle Dupont,HNW Individual,France,Pending,2026-03-25,,Medium,Clear,Clear,Pending,No,2026-03-25,KYC Analyst B,New investor; KYC documentation under review; awaiting source of wealth confirmation
+INV-020,Cayman Select Partners LP,Institutional,Cayman Islands,Complete,2025-07-15,2026-07-15,High,Clear,Clear,Yes,Yes,2026-01-20,KYC Analyst B,EDD applied due to jurisdiction; look-through to beneficial owners completed

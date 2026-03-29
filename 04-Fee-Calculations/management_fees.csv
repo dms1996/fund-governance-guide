@@ -1,0 +1,23 @@
+Fund_Name,ISIN,Share_Class,Fee_Type,Annual_Rate_Pct,Accrual_Frequency,Calculation_Base,Period_Start,Period_End,Avg_NAV_EUR,Accrued_Fee_EUR,Paid_Fee_EUR,Payment_Date,Status
+Global Equity Fund,IE00B4X9L533,Institutional,Management Fee,0.75,Daily,Average Daily NAV,2026-01-01,2026-03-31,485000000,908219.18,605479.45,2026-02-28,Partially Paid
+Global Equity Fund,IE00B4X9L533,Retail,Management Fee,1.50,Daily,Average Daily NAV,2026-01-01,2026-03-31,215000000,805479.45,536986.30,2026-02-28,Partially Paid
+Global Equity Fund,IE00B4X9L533,Institutional,Administration Fee,0.08,Daily,Average Daily NAV,2026-01-01,2026-03-31,485000000,96876.71,64584.47,2026-02-28,Partially Paid
+Global Equity Fund,IE00B4X9L533,Retail,Administration Fee,0.10,Daily,Average Daily NAV,2026-01-01,2026-03-31,215000000,53630.14,35753.42,2026-02-28,Partially Paid
+European Bond Fund,IE00BK5BQ103,Institutional,Management Fee,0.50,Daily,Average Daily NAV,2026-01-01,2026-03-31,620000000,774520.55,516347.03,2026-02-28,Partially Paid
+European Bond Fund,IE00BK5BQ103,Retail,Management Fee,1.00,Daily,Average Daily NAV,2026-01-01,2026-03-31,180000000,449589.04,299726.03,2026-02-28,Partially Paid
+European Bond Fund,IE00BK5BQ103,Institutional,Administration Fee,0.06,Daily,Average Daily NAV,2026-01-01,2026-03-31,620000000,92942.47,61961.64,2026-02-28,Partially Paid
+European Bond Fund,IE00BK5BQ103,Retail,Administration Fee,0.08,Daily,Average Daily NAV,2026-01-01,2026-03-31,180000000,35967.12,23978.08,2026-02-28,Partially Paid
+Multi-Asset Growth Fund,LU0292097234,Institutional,Management Fee,0.85,Daily,Average Daily NAV,2026-01-01,2026-03-31,340000000,722191.78,481461.19,2026-02-28,Partially Paid
+Multi-Asset Growth Fund,LU0292097234,Retail,Management Fee,1.60,Daily,Average Daily NAV,2026-01-01,2026-03-31,160000000,639452.05,426301.37,2026-02-28,Partially Paid
+Multi-Asset Growth Fund,LU0292097234,Institutional,Administration Fee,0.07,Daily,Average Daily NAV,2026-01-01,2026-03-31,340000000,59474.79,39649.86,2026-02-28,Partially Paid
+Multi-Asset Growth Fund,LU0292097234,Retail,Administration Fee,0.10,Daily,Average Daily NAV,2026-01-01,2026-03-31,160000000,39945.21,26630.14,2026-02-28,Partially Paid
+Emerging Markets Fund,IE00BFYN9Y00,Institutional,Management Fee,1.00,Daily,Average Daily NAV,2026-01-01,2026-03-31,275000000,687671.23,458447.49,2026-02-28,Partially Paid
+Emerging Markets Fund,IE00BFYN9Y00,Retail,Management Fee,1.75,Daily,Average Daily NAV,2026-01-01,2026-03-31,125000000,546575.34,364383.56,2026-02-28,Partially Paid
+Emerging Markets Fund,IE00BFYN9Y00,Institutional,Administration Fee,0.10,Daily,Average Daily NAV,2026-01-01,2026-03-31,275000000,68767.12,45844.75,2026-02-28,Partially Paid
+Emerging Markets Fund,IE00BFYN9Y00,Retail,Administration Fee,0.12,Daily,Average Daily NAV,2026-01-01,2026-03-31,125000000,37500.00,25000.00,2026-02-28,Partially Paid
+Real Estate Opportunities Fund,LU0488316133,Institutional,Management Fee,1.25,Daily,Average Daily GAV,2026-01-01,2026-03-31,410000000,1281506.85,854337.90,2026-02-28,Partially Paid
+Real Estate Opportunities Fund,LU0488316133,Institutional,Administration Fee,0.12,Daily,Average Daily NAV,2026-01-01,2026-03-31,245000000,73479.45,48986.30,2026-02-28,Partially Paid
+Real Estate Opportunities Fund,LU0488316133,Institutional,Depositary Fee,0.03,Daily,Average Daily NAV,2026-01-01,2026-03-31,245000000,18369.86,12246.58,2026-02-28,Partially Paid
+Private Credit Fund,LU0629460675,Institutional,Management Fee,1.50,Daily,Average Daily NAV,2026-01-01,2026-03-31,320000000,1200000.00,800000.00,2026-02-28,Partially Paid
+Private Credit Fund,LU0629460675,Institutional,Administration Fee,0.10,Daily,Average Daily NAV,2026-01-01,2026-03-31,320000000,80000.00,53333.33,2026-02-28,Partially Paid
+Private Credit Fund,LU0629460675,Institutional,Depositary Fee,0.04,Daily,Average Daily NAV,2026-01-01,2026-03-31,320000000,32000.00,21333.33,2026-02-28,Partially Paid

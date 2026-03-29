@@ -1,0 +1,7 @@
+Fund_Name,ISIN,Report_Month,NAV_Per_Share,AUM_EUR,MTD_Return_Pct,YTD_Return_Pct,1Y_Return_Pct,3Y_Ann_Return_Pct,Volatility_Pct,Sharpe_Ratio,Top_Holding_1,Top_Holding_1_Pct,Top_Holding_2,Top_Holding_2_Pct,Top_Holding_3,Top_Holding_3_Pct,Sector_Top,Sector_Top_Pct,Region_Top,Region_Top_Pct
+Global Equity Fund,IE00B4X9L533,2025-12,187.42,487250000,1.54,14.87,14.87,9.52,12.91,1.12,Tech Corp C,4.8,Tech Corp D,4.2,Tech Corp B,3.7,Technology,28.4,North America,58.3
+European Bond Fund,IE00BK5BQ103,2025-12,112.87,312800000,0.38,4.61,4.61,1.87,3.64,0.74,Sovereign Bond A 1.5% 2030,5.2,Sovereign Bond B 2.0% 2032,4.8,Supranational Bond 1.25% 2028,3.4,Government Bonds,42.1,Eurozone Core,61.7
+Multi-Asset Growth Fund,LU0292097234,2025-12,148.91,623400000,1.12,9.73,9.73,6.14,8.11,0.93,Global Equity ETF A,8.7,EUR Govt Bond Index Fund,6.3,Tech Corp C,2.9,Multi-Asset Equity,62.8,Global Developed,71.4
+Emerging Markets Fund,IE00BFYN9Y00,2025-12,131.56,198500000,0.87,8.42,8.42,3.91,17.23,0.58,Tech Corp A,6.1,Issuer X,4.8,Conglomerate A,3.4,Technology,24.7,Asia Pacific,68.2
+Real Estate Opportunities Fund,LU0488316133,2025-12,96.34,145600000,-0.21,2.14,2.14,-1.23,14.12,0.18,Logistics REIT A,5.8,Residential REIT B,5.2,Industrial REIT C,4.1,Logistics & Industrial,31.2,Europe,54.6
+Private Credit Fund,LU0629460675,2025-12,124.67,89200000,0.62,7.93,7.93,5.67,4.31,1.21,Senior Secured Loan - Healthcare Co. A,3.2,Senior Secured Loan - FinTech Co. B,2.9,Unitranche - Software Co. C,2.7,Direct Lending,64.3,Europe,52.8

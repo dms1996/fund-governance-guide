@@ -1,0 +1,9 @@
+Fund_Name,ISIN,Reporting_Period,Regulator,Total_NAV_EUR,Number_of_Investors,Gross_Subscriptions_EUR,Gross_Redemptions_EUR,Net_Flows_EUR,Investment_Limit_5_10_40_Compliant,Liquidity_Pct_Cash,Leverage_Used,Derivative_Exposure_Pct,VaR_Limit_Compliant,Counterparty_Exposure_Max_Pct,Filing_Status
+Global Equity Fund,IE00B4X9L533,Q3 2025,Central Bank of Ireland,485000000,3420,52000000,38000000,14000000,Yes,6.2,No,8.5,Yes,4.1,Filed
+Global Equity Fund,IE00B4X9L533,Q4 2025,Central Bank of Ireland,512000000,3580,61000000,42000000,19000000,Yes,5.8,No,9.1,Yes,3.9,Filed
+European Bond Fund,IE00BK5BQ103,Q3 2025,Central Bank of Ireland,320000000,1850,28000000,22000000,6000000,Yes,8.4,Yes,14.2,Yes,7.3,Filed
+European Bond Fund,IE00BK5BQ103,Q4 2025,Central Bank of Ireland,335000000,1920,33000000,19000000,14000000,Yes,7.9,Yes,15.1,Yes,6.8,Filed
+Multi-Asset Growth Fund,LU0292097234,Q3 2025,CSSF Luxembourg,275000000,2210,24000000,18000000,6000000,Yes,10.1,Yes,11.7,Yes,5.5,Pending Review
+Multi-Asset Growth Fund,LU0292097234,Q4 2025,CSSF Luxembourg,290000000,2340,30000000,21000000,9000000,Yes,9.6,Yes,12.3,Yes,5.2,Filed
+Emerging Markets Fund,IE00BFYN9Y00,Q3 2025,Central Bank of Ireland,195000000,1420,18000000,15000000,3000000,Yes,7.5,No,6.8,Yes,3.6,Filed
+Emerging Markets Fund,IE00BFYN9Y00,Q4 2025,Central Bank of Ireland,208000000,1510,22000000,13000000,9000000,Yes,7.1,No,7.4,Yes,4.0,Filed

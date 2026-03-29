@@ -1,0 +1,24 @@
+Filing_ID,Regulation,Filing_Type,Fund_Scope,Regulator,Frequency,Period,Due_Date,Responsible_Team,Status,Submission_Date,Notes
+FIL-001,UCITS,CBI Online Return - SUP Agent,All UCITS Funds,Central Bank of Ireland,Quarterly,Q3 2025,2025-10-31,Fund Accounting,Filed,2025-10-28,Submitted via ONR system
+FIL-002,UCITS,CBI Online Return - SUP Agent,All UCITS Funds,Central Bank of Ireland,Quarterly,Q4 2025,2026-01-31,Fund Accounting,Filed,2026-01-29,Submitted via ONR system
+FIL-003,UCITS,UCITS KIID Update,Global Equity Fund,Central Bank of Ireland,Annual,2025,2026-02-19,Compliance,Filed,2026-02-15,Updated performance and risk indicator
+FIL-004,UCITS,UCITS KIID Update,European Bond Fund,Central Bank of Ireland,Annual,2025,2026-02-19,Compliance,Filed,2026-02-17,Updated charges and performance data
+FIL-005,UCITS,UCITS KIID Update,Emerging Markets Fund,Central Bank of Ireland,Annual,2025,2026-02-19,Compliance,Filed,2026-02-18,Updated SRRI from 6 to 5
+FIL-006,UCITS,UCITS KIID Update,Multi-Asset Growth Fund,CSSF Luxembourg,Annual,2025,2026-02-19,Compliance,Pending,, Awaiting final performance figures
+FIL-007,AIFMD,Annex IV Reporting,Real Estate Opportunities Fund,CSSF Luxembourg,Quarterly,Q3 2025,2025-11-30,Regulatory Reporting,Filed,2025-11-25,Filed via CSSF eDesk
+FIL-008,AIFMD,Annex IV Reporting,Private Credit Fund,CSSF Luxembourg,Quarterly,Q3 2025,2025-11-30,Regulatory Reporting,Filed,2025-11-28,Filed via CSSF eDesk
+FIL-009,AIFMD,Annex IV Reporting,Real Estate Opportunities Fund,CSSF Luxembourg,Quarterly,Q4 2025,2026-02-28,Regulatory Reporting,Filed,2026-02-24,Filed via CSSF eDesk
+FIL-010,AIFMD,Annex IV Reporting,Private Credit Fund,CSSF Luxembourg,Quarterly,Q4 2025,2026-02-28,Regulatory Reporting,Pending,,Data validation in progress
+FIL-011,PRIIPs,KID Update,All UCITS Funds,Central Bank of Ireland / CSSF,Annual,2025,2026-01-01,Product Team,Filed,2025-12-30,Updated transaction cost and performance scenarios
+FIL-012,Companies Act / FRS 102,Annual Audited Accounts,All Funds,Central Bank of Ireland / CSSF,Annual,FY 2025,2026-06-30,Finance,In Progress,,Audit fieldwork started March 2026
+FIL-013,UCITS / AIFMD,Semi-Annual Report,All Funds,Central Bank of Ireland / CSSF,Semi-Annual,H1 2025,2025-10-31,Finance,Filed,2025-10-25,Published on website and filed with regulators
+FIL-014,UCITS / AIFMD,Semi-Annual Report,All Funds,Central Bank of Ireland / CSSF,Semi-Annual,H2 2025,2026-04-30,Finance,Not Started,,Due after year-end audit completion
+FIL-015,CRS / FATCA,CRS and FATCA Reporting,All Funds,Irish Revenue / Luxembourg Tax Authority,Annual,2025,2026-06-30,Tax & Compliance,Not Started,,Data extraction to begin April 2026
+FIL-016,EMIR,EMIR Trade Reporting,European Bond Fund,ESMA via Trade Repository,Daily,Ongoing,Ongoing,Operations,Ongoing,,Delegated to DTCC via administrator
+FIL-017,EMIR,EMIR Trade Reporting,Multi-Asset Growth Fund,ESMA via Trade Repository,Daily,Ongoing,Ongoing,Operations,Ongoing,,Delegated to DTCC via administrator
+FIL-018,Central Bank,Substance Return - PCF Holders,Management Company,Central Bank of Ireland,Annual,2025,2026-03-31,Company Secretary,Pending,,Gathering PCF availability and meeting attendance data
+FIL-019,Central Bank,Fitness & Probity Annual Return,Management Company,Central Bank of Ireland,Annual,2025,2026-03-31,HR / Compliance,Pending,,All PCF holders confirmed in good standing
+FIL-020,SFDR,SFDR Periodic Disclosure,Global Equity Fund (Art 8),Central Bank of Ireland,Annual,2025,2026-06-30,ESG Team,Not Started,,Template aligned to latest RTS requirements
+FIL-021,Anti-Money Laundering,AML Return,Management Company,Central Bank of Ireland,Annual,2025,2026-03-31,MLRO,Pending,,Compiling suspicious transaction statistics
+FIL-022,UCITS,UCITS CBI Return Q1 2026,All UCITS Funds,Central Bank of Ireland,Quarterly,Q1 2026,2026-04-15,Fund Accounting,Not Started,,
+FIL-023,AIFMD,AIFMD Annex IV Q1 2026,AIF Funds,CSSF Luxembourg,Quarterly,Q1 2026,2026-04-30,Regulatory Reporting,Not Started,,
